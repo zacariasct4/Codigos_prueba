@@ -46,16 +46,15 @@ opcion = 0
 biblioteca = Biblioteca([])
 
 print("Bienvenido al Sistema de Gestión de Biblioteca")
-
-# Se utiliza un bucle while que se rompe con un break cuando opcion = 6
-while True: 
-
-    print("1. Agregar libro\n"
+print("1. Agregar libro\n"
     "2. Prestar libro\n"
     "3. Devolver libro\n"
     "4. Mostrar libros\n"
     "5. Buscar\n"
     "6. Salir")
+
+# Se utiliza un bucle while que se rompe con un break cuando opcion = 6
+while True: 
 
     opcion = int(input("Elige una opción:"))
 
